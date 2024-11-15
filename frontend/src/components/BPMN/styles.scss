@@ -1,0 +1,26 @@
+.flow-node {
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  border-radius: 10px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: bold;
+  transform: translateX(-50%);
+
+  &-incident {
+    background-color: #ff0000;
+  }
+  &-completed {
+    background-color: #0015ff;
+  }
+  &-canceled {
+    background-color: #6e6e6e;
+  }
+  &-active {
+    background-color: #21c800;
+  }
+}
